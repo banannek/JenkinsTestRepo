@@ -1,5 +1,4 @@
 #!groovy
-// Declarative //
 pipeline {
   agent any
   stages {
@@ -20,7 +19,6 @@ pipeline {
   }
   }
 }
-// Script //
 node {
   stage('Build') {
   echo 'Building....'
