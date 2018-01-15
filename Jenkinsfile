@@ -3,6 +3,6 @@ node
 {
   stage('Separate')
   {
-    JF2
+    evaluate(new File("JF2"))
   }
 }
