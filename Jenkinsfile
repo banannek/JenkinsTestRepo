@@ -1,4 +1,16 @@
+#!groovy
 node
 {
-  echo 'Hello world!'
+  stage('Build')
+    {
+      echo 'Building'
+    }
+    stage('Test')
+    {
+      echo 'Testing'
+    }
+    stage('Deploy')
+    {
+      echo 'Deploying'
+    }
 }
