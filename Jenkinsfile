@@ -1,4 +1,7 @@
 node
 {
-  echo 'Hello world!'
+  stage('Separate')
+  {
+    JF2
+  }
 }
