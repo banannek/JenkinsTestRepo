@@ -1,3 +1,4 @@
-node {
-  echo 'Hello World'
+node
+{
+  echo 'Hello world!'
 }
