@@ -1,11 +1,11 @@
 #!groovy
 node
 {
-  stage('Bulid')
+  stage('Build')
     {
       steps
       {
-        echo 'Bulding'
+        echo 'Building'
       }
     }
     stage('Test')
